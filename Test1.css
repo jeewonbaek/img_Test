@@ -1,3 +1,56 @@
+div {
+  font-size:200px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow', Arial, sans-serif, Times, serif;
+  text-align: center;
+  color:white;
+}
+
+ /* section  {
+  size: 10%;
+ }  */
+
+
+
+/* 
+body > img:first-child {
+  size: 50%;
+} */
+
+body {
+  background-image: url('./images/배경1.jpg');
+  /* background-image: url('./images/배경2.jpg'); */
+  background-size: cover; /* 이미지가 화면 전체에 맞도록 크기를 조절 */
+  background-position: center; /* 이미지가 가운데에 위치하도록 설정 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 설정 */
+}
+
+section {
+  display: inline-block;
+  /* margin-right: auto; */
+  padding:50px;
+  /* size-adjust: ; */
+  /* text-align: center; */
+  /* 가운데로 맞추고 싶은데 계속 왼쪽에 치우쳐져서 혹시나 마진 조정해야하나 했는데 걍 텍얼 센터 하니까 ㅇㅇ */
+}
+
+section > nav > img {
+  margin:50px;
+  display: inline-block;
+  color: white;
+  font-size: 50px;
+  text-align: end;
+}
+
+section > nav {
+  display: inline-block;
+}
+
+ /* 마지막 앨범 왼쪽으로 가게 만들기.. */
+section > nav > img:last-child {
+  /* text-align: left; */
+  
+}
+
 h1 {
-  color:red;
+  color: white;
 }
