@@ -1,4 +1,4 @@
-div {
+h1:first-child {
   font-size:200px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow', Arial, sans-serif, Times, serif;
   text-align: center;
@@ -24,33 +24,28 @@ body {
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 설정 */
 }
 
-section {
-  display: inline-block;
+nav {
+  /* display: inline-block; */
   /* margin-right: auto; */
   padding:50px;
+  margin:10px;
   /* size-adjust: ; */
-  /* text-align: center; */
+  text-align: center;
   /* 가운데로 맞추고 싶은데 계속 왼쪽에 치우쳐져서 혹시나 마진 조정해야하나 했는데 걍 텍얼 센터 하니까 ㅇㅇ */
 }
 
-section > nav > img {
-  margin:50px;
-  display: inline-block;
-  color: white;
-  font-size: 50px;
-  text-align: end;
-}
-
-section > nav {
+nav > div > img {
+  margin:40px;
   display: inline-block;
 }
 
- /* 마지막 앨범 왼쪽으로 가게 만들기.. */
-section > nav > img:last-child {
-  /* text-align: left; */
-  
+
+div {
+  display: inline-block;
+  margin:40px;
+  border-radius: 50px;
 }
 
-h1 {
-  color: white;
+div > h1 {
+  color:white;
 }
