@@ -20,14 +20,15 @@ body {
   background-image: url('./images/배경1.jpg');
   /* background-image: url('./images/배경2.jpg'); */
   background-size: cover; /* 이미지가 화면 전체에 맞도록 크기를 조절 */
-  background-position: center; /* 이미지가 가운데에 위치하도록 설정 */
+  background-position: center; 
+  /* 이미지가 가운데에 위치하도록 설정 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 설정 */
 }
 
 nav {
   /* display: inline-block; */
   /* margin-right: auto; */
-  padding:50px;
+  padding:30px;
   margin:10px;
   /* size-adjust: ; */
   text-align: center;
@@ -42,9 +43,12 @@ nav > div > img {
 
 div {
   display: inline-block;
-  margin:40px;
+  margin:30px;
   border-radius: 50px;
 }
+
+/* 보더 래디우스는 왜 또 안먹니 ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ */
+
 
 div > h1 {
   color:white;
